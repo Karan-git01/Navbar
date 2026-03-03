@@ -5,8 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Navbar</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
-    
+    <nav>
+        <input type="checkbox" id="sidebar-active">
+        <label for="sidebar-active" class="open-sidebar-button">
+            <i class="material-icons">menu</i>
+        </label>
+
+        <label id="overlay" for="sidebar-active"></label>
+
+        <div class="links-container">
+            <label for="sidebar-active" class="close-sidebar-button">
+                <i class="material-icons">close</i>
+            </label>
+
+            <a href="" class="home-link">Home</a>
+            <a href="">About</a>
+            <a href="">Product</a>
+            <a href="">Blog</a>
+            <a href="">Login</a>
+        </div>
+    </nav>
 </body>
 </html>
